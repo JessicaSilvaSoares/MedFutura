@@ -1,0 +1,23 @@
+@import "/src/styles/mixins.scss";
+
+.section {
+  display: flex;
+  width: fit-content;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tabela {
+  @include tabela;
+  
+  &__tbody {
+    @include corpo;
+  }
+  
+  &__linha {
+    @include linha;
+    grid: 1fr / 9rem 9rem 4rem 5rem 5rem 5rem;
+  }
+}
+
+@include media-query;

@@ -1,0 +1,27 @@
+@import "/src/styles/variaveis.sass";
+
+.header {
+  display: grid;
+  grid: 1fr / 3rem auto;
+  justify-content: space-between;
+  background-color: $cor_azul;
+  color: white;
+  padding: .5rem 1rem;
+  margin-bottom: 1.5rem;
+  width: 100vw;
+
+  &__btn {
+    background-color: transparent;
+    font-size: 2rem;
+    color: $cor_amarela;
+    border: none;
+  }
+  &__btn:hover {
+    cursor: pointer;
+    place-content: stretch;
+  }
+
+  &__logo {
+    grid-column: 2;
+  }
+}
