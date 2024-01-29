@@ -11,12 +11,12 @@
 
 ## Instalação
 
- Baixe o arquivo .zip;
- Descompacte a pasta;
- Através do terminal entre na pasta do projeto
- Rode os comandos:
+ 1. Baixe o arquivo .zip;
+ 2. Descompacte a pasta;
+ 3. Através do terminal entre na pasta do projeto
+ 4. Rode os comandos:
 ```
    npm install
    npm rum dev
 ```
-Acesse: http://localhost:3000
+ 5. Acesse: http://localhost:3000
